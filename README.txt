@@ -1,6 +1,6 @@
 This is an updated LaTeX template for the International Astronautical Congress (IAC), consistent with the 2022 Word template. 
 
-This template is updated from [https://github.com/debittner/iac_latex_template](https://github.com/debittner/iac_latex_template).
+This template is updated from https://github.com/debittner/iac_latex_template.
 
 
 Original README:
