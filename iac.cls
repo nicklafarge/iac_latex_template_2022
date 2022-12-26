@@ -158,12 +158,11 @@
   \textbf{Keywords:}%
   \newcounter{keywordnum}%
   \setcounter{keywordnum}{0}
-  \whileboolexpr
+   \whileboolexpr
   { test {\ifnumcomp{\value{keywordnum}}{<}{\thekeywordcount-1}} }%
   {\stepcounter{keywordnum}%
   \csuse{iac@keyword\thekeywordnum}, %
-  }
-  \csuse{iac@keyword\thekeywordcount}%
+  }\csuse{iac@keyword\thekeywordcount}%
   }{}
   \vskip 4.5ex}%
   \pagestyle{fancy}%
